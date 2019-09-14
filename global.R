@@ -17,9 +17,3 @@ library("highcharter") # Plotting
 library("markdown") # Reporting
 library("DT") # Data tables
 
-# styles ------------------------------------------------------------------
-
-styles <- list(
-  skin_color = "blue-light",
-  css_files = c("css/AdminLTE.min.css", "css/_all-skins.min.css", "css/custom.min.css")
-)
