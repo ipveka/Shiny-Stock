@@ -1,0 +1,61 @@
+
+/*---*/
+
+/* White and blue theme */
+/* Author: Ignasi Pascual Vilaseca */
+/* Date: 14/09/2019 */
+
+/* header title font */
+.main-header .logo {
+font-family: "Georgia", Times, "Times New Roman", serif;
+font-weight: bold;
+font-size: 20px;
+}
+
+
+/* background color of header (logo part) */
+.skin-blue .main-header .logo {
+background-color: #38598a;
+color: #fff;
+border-bottom: 0 solid transparent;
+}
+        
+        
+/* change the background color of header (logo part) when mouse hover */
+.skin-blue .main-header .logo:hover {
+background-color: #38598a;
+}
+        
+
+/* background color for remaining part of the header */
+.skin-blue .main-header .navbar {
+background-color: #38598a;
+} 
+                              
+/* main sidebar */
+.skin-blue .main-sidebar {
+background-color: #fff;
+}
+
+/* active sidebar menu item */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+background-color: #fff;
+color: #38598a;
+}
+
+/* sidebar menuitems */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a{
+background-color: #fff;
+color: #38598a;
+}
+
+/* sidebar menuitems when mouse hover */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+background-color: #38598a;
+color: white;
+}
+                              
+/* sidebar toggle button */           
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+background-color: #fff;
+}
