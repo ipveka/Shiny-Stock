@@ -1,5 +1,5 @@
   
-# ShinyForecaster 
+# ShinyStock
 
 **In development**
 
