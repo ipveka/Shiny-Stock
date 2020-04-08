@@ -78,7 +78,7 @@ body <- dashboardBody(
                          actionButton("get", "Get Stock")
                      )
               ),
-              column(width = 8,
+              column(width = 7,
                      box(width = 12,
                          title = "Table of content",
                          withSpinner(DT::dataTableOutput("table",width = 700)))
@@ -104,7 +104,7 @@ body <- dashboardBody(
                          actionButton("plot", "Plot")
                      )
               ),
-              column(width = 8,
+              column(width = 7,
                      box(width = 12,
                          title = "Graphics",
                          withSpinner(highchartOutput("chart",height = "650px"))))
