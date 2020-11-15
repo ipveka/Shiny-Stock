@@ -1,9 +1,7 @@
 
-#---
-
 ##### User Interface
 
-# Packages ----------------------------------------------------------------
+# Encoding: UTF-8
 
 library("RSQLite") # Data importing
 library("shiny") # Shiny components
@@ -27,8 +25,6 @@ header <- dashboardHeader(title = "ShinyStock")
 ### SideBar:
 
 sidebar <- dashboardSidebar(width = 230,
-                            
-                            hr(),
                             
                             sidebarMenu(
                               menuItem("Home", tabName = "home", icon = icon("fas fa-home")),

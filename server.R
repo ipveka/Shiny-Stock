@@ -1,9 +1,7 @@
   
-#---
-
 ##### Server
 
-# Packages ----------------------------------------------------------------
+# Encoding: UTF-8
 
 library("RSQLite") # Data importing
 library("shiny") # Shiny components
